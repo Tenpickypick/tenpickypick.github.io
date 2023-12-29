@@ -1,0 +1,16 @@
+// 自定義樣式
+$utilities: map-merge(
+  $utilities,
+  (
+    "height2": (          // 因為有 height 所以範例使用 height2
+      responsive: true,   // 使否有響應式
+      property: height,   // 屬性名稱(字串/字串陣列)
+      class: hei2,        // 與上方 property 名稱做區隔，若無此設定則與上方 property 相同，若 property 為「字串陣列」則與陣列內第一個元素相同
+      values: (           // 必填設定
+        100: 100px,
+        200: 200px,
+        auto: auto
+      )
+    )
+  )
+);
