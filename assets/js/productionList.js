@@ -19,6 +19,9 @@ import img18 from 'assets/image/018wine.jpg'
 import img19 from 'assets/image/019wine.jpg'
 import img20 from 'assets/image/020wine.jpg'
 import img21 from 'assets/image/021wine.jpg'
+import img22 from 'assets/image/022coffee.jpg'
+import img23 from 'assets/image/023food.jpg'
+import img24 from 'assets/image/024food.jpg'
 
 export const productData = [
   {
@@ -368,11 +371,11 @@ export const productData = [
   {
     id: 19,
     category: 'wine',
-    title: '獺祭-三割九分',
+    title: '獺祭 三割九分',
     subTitle: '鮮醇的花果香，表現出獺祭大方的魅力。酒質高雅，帶甘甜的純米大吟醸。',
     detail: {
       imgName: img19,
-      productName: '獺祭-三割九分',
+      productName: '獺祭 三割九分',
       description: '鮮醇的花果香，表現出獺祭大方的魅力。酒質高雅，帶甘甜的純米大吟醸。',
       storageMethod: '常溫存放，避免陽光及高溫',
       placeOfOrigin: '日本',
@@ -421,6 +424,64 @@ export const productData = [
       alcoholConcentration: '12%',
       note: null
     }
-  }
+  },
+  {
+    id: 22,
+    category: 'coffee',
+    title: '自家烘焙咖啡豆',
+    subTitle: '每季有不一樣的豆單，精選世界各地新鮮生豆，不一樣的風味值得試試。',
+    detail: {
+      imgName: img22,
+      productName: '自家烘焙咖啡豆',
+      description: '每季有不一樣的豆單，精選世界各地新鮮生豆，不一樣的風味值得試試。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '各國',
+      netWeight: '半磅',
+      unit: null,
+      limitDate: '10個月',
+      containment: null,
+      alcoholConcentration: null,
+      note: '包裝可以1/4磅、半磅、一磅'
+    }
+  },
+  {
+    id: 23,
+    category: 'food',
+    title: '豬肉乾',
+    subTitle: '大人小孩都喜歡，多樣口味選擇，包裝方便不沾手。',
+    detail: {
+      imgName: img23,
+      productName: '豬肉乾',
+      description: '大人小孩都喜歡，多樣口味選擇，包裝方便不沾手。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '臺灣',
+      netWeight: '170g',
+      unit: '10入/包',
+      limitDate: '3個月',
+      containment: null,
+      alcoholConcentration: null,
+      note: '原味蜜汁、蒜味、泰式、起司'
+    }
+  },
+  {
+    id: 24,
+    category: 'food',
+    title: '虎阿魷 魷魚條',
+    subTitle: '使用深海大魷魚，大條大條的包裝，有著跳躍的滋味，還有Q彈的口感搭配彷彿身在海洋中。',
+    detail: {
+      imgName: img24,
+      productName: '虎阿魷 魷魚條',
+      description: '使用深海大魷魚，大條大條的包裝，有著跳躍的滋味，還有Q彈的口感搭配彷彿身在海洋中。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '阿根廷',
+      netWeight: '200g',
+      unit: null,
+      limitDate: '3個月',
+      containment: null,
+      alcoholConcentration: null,
+      note: null
+    }
+  },
+  
 
 ]
