@@ -16,6 +16,9 @@ import img15 from 'assets/image/015wine.jpg'
 import img16 from 'assets/image/016wine.jpg'
 import img17 from 'assets/image/017wine.jpg'
 import img18 from 'assets/image/018wine.jpg'
+import img19 from 'assets/image/019wine.jpg'
+import img20 from 'assets/image/020wine.jpg'
+import img21 from 'assets/image/021wine.jpg'
 
 export const productData = [
   {
@@ -361,5 +364,63 @@ export const productData = [
       alcoholConcentration: '13%',
       note: null
     }
+  },
+  {
+    id: 19,
+    category: 'wine',
+    title: '獺祭-三割九分',
+    subTitle: '鮮醇的花果香，表現出獺祭大方的魅力。酒質高雅，帶甘甜的純米大吟醸。',
+    detail: {
+      imgName: img19,
+      productName: '獺祭-三割九分',
+      description: '鮮醇的花果香，表現出獺祭大方的魅力。酒質高雅，帶甘甜的純米大吟醸。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '日本',
+      netWeight: null,
+      unit: null,
+      limitDate: null,
+      containment: '720ml',
+      alcoholConcentration: '16%',
+      note: null
+    }
+  },
+  {
+    id: 20,
+    category: 'wine',
+    title: '南紀梅酒',
+    subTitle: '出自和歌山南部，使用當地完全熟成梅子，匠人精心調配，微濁酒體夾雜著水蜜桃香味，清新梅子甜度剛剛好。',
+    detail: {
+      imgName: img20,
+      productName: '南紀梅酒',
+      description: '出自和歌山南部，使用當地完全熟成梅子，匠人精心調配，微濁酒體夾雜著水蜜桃香味，清新梅子甜度剛剛好。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '日本',
+      netWeight: null,
+      unit: null,
+      limitDate: null,
+      containment: '720ml',
+      alcoholConcentration: '12%',
+      note: null
+    }
+  },
+  {
+    id: 21,
+    category: 'wine',
+    title: '矛盾梅酒',
+    subTitle: '循古製法，濃郁的梅子香氣，帶點釀製的酸味，相當適合加入冰塊或者清涼的氣泡水。',
+    detail: {
+      imgName: img21,
+      productName: '矛盾梅酒',
+      description: '循古製法，濃郁的梅子香氣，帶點釀製的酸味，相當適合加入冰塊或者清涼的氣泡水。',
+      storageMethod: '常溫存放，避免陽光及高溫',
+      placeOfOrigin: '日本',
+      netWeight: null,
+      unit: null,
+      limitDate: null,
+      containment: '720ml',
+      alcoholConcentration: '12%',
+      note: null
+    }
   }
+
 ]
